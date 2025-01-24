@@ -48,3 +48,5 @@ const getWeather = async () => {
         console.log("Error fetching weather data:", error);
     }
 }
+
+// getWeather();

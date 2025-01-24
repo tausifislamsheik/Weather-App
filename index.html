@@ -10,8 +10,10 @@
     <script src="https://kit.fontawesome.com/2b57bc1e88.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
     <div id="app" class="hero-content mx-auto min-h-screen">
-        <div class="card bg-gradient-to-b from-blue-900 to-gray-400 text-primary-content w-96 text-white text-center">
+        <div class="card bg-gradient-to-b from-blue-900 to-gray-500 text-primary-content w-96 text-white text-center">
+            <h1 class="text-center text-2xl font-bold mt-6">Weather App</h1>
             <div class="card-body">
 
                 <!-- search bar section -->
@@ -25,24 +27,22 @@
 
               <div id="info">
                 <p class="mb-4" id="date"></p>
-                <h3 class="text-5xl uppercase font-bold" id="city"></h3>
+                <h3 class="text-5xl uppercase font-bold" id="city">DHAKA</h3>
               </div>
 
               <!-- Weather img -->
 
-              <div id="tempImg">
-
-              </div>
+              <div id="tempImg"></div>
 
               <!-- Description -->
 
               <div class="text-2xl" id="description">
-
+                     <p>Mist</p>
               </div>
 
               <!-- Temperature section -->
 
-              <div class="text-5xl font-bold mb-8" id="temp"></div>
+              <div class="text-5xl font-bold mb-8" id="temp">18°C</div>
 
               <!-- High & Low temp section -->
 
@@ -50,17 +50,24 @@
                 <div class="col">
                     <div class="info">
                         <h5>Highs</h5>
-                        <p id="maxTemp"></p>
+                        <p id="maxTemp">18°C</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info">
                         <h5>Lows</h5>
-                        <p id="minTemp"></p>
+                        <p id="minTemp">18°C</p>
                     </div>
                 </div>
               </div>
             </div>
+            <!-- Developer name -->
+
+            <footer class=" rounded-b-xl footer footer-center bg-base-300 text-base-content p-4">
+                <aside>
+                  <p>Developed by <span class="font-semibold"><i>TAUSIF ISLAM SHEIK</i></span></p>
+                </aside>
+              </footer>
           </div>
     </div>
     <script src="scripts.js"></script>
