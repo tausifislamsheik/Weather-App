@@ -9,10 +9,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/2b57bc1e88.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="bg-[]">
     
     <div id="app" class="hero-content mx-auto min-h-screen">
-        <div class="card bg-gradient-to-b from-blue-900 to-gray-500 text-primary-content w-96 text-white text-center">
+        <div class="card bg-gradient-to-b from-blue-900 to-red-400 text-primary-content w-96 text-white text-center">
             <h1 class="text-center text-2xl font-bold mt-6">Weather App</h1>
             <div class="card-body">
 
@@ -42,20 +42,20 @@
 
               <!-- Temperature section -->
 
-              <div class="text-5xl font-bold mb-8" id="temp">18°C</div>
+              <div class="text-5xl mb-8" id="temp">18°C</div>
 
               <!-- High & Low temp section -->
 
-              <div id="extraInfo" class="flex place-content-around font-bold uppercase text-xl">
+              <div id="extraInfo" class="flex place-content-around uppercase text-xl">
                 <div class="col">
                     <div class="info">
-                        <h5>Highs</h5>
+                        <h5 class="font-bold">Highs</h5>
                         <p id="maxTemp">22°C</p>
                     </div>
                 </div>
                 <div class="col">
                     <div class="info">
-                        <h5>Lows</h5>
+                        <h5 class="font-bold">Lows</h5>
                         <p id="minTemp">18°C</p>
                     </div>
                 </div>

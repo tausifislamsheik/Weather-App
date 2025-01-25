@@ -40,7 +40,7 @@ const getWeather = async () => {
 
         city.innerHTML = `${weatherData.name}`;
         description.innerHTML = `${weatherData.weather[0].main}`;
-        tempImg.src = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`;
+        tempImg.src = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
         temp.innerHTML = `<h2>${Math.round(weatherData.main.temp - 273.15)}°C</h2>`;    
         maxTemp.innerHTML = `${Math.round(weatherData.main.temp_max - 273.15)}°C`;
         minTemp.innerHTML = `${Math.round(weatherData.main.temp_min - 273.15)}°C`;
